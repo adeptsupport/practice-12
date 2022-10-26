@@ -1,0 +1,11 @@
+{
+  "name": "nodejs_test",
+  "private": "true",
+  "scripts": {
+    "serve-cli": "live-server --port=3000 --host=localhost",
+    "serve-node": "node server.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
